@@ -45,6 +45,6 @@ class StackExchangeController extends Controller
 
 
         return json_decode($response->getBody(), JSON_OBJECT_AS_ARRAY);
-    ;
+    
     }
 }
